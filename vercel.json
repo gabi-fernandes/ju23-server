@@ -11,11 +11,6 @@
       "src": "/(.*)",
       "dest": "server.js"
     },
-    {
-      "src": "/getConvidados"
-    },
-    {
-      "src": "/adicionar"
-    }
+    { "src": "/getConvidados", "methods": ["GET"] }
   ]
 }
