@@ -12,12 +12,10 @@
       "dest": "server.js"
     },
     {
-      "src": "/getConvidados",
-      "dest": "server.js"
+      "src": "/getConvidados"
     },
     {
-      "src": "/adicionar",
-      "dest": "server.js"
+      "src": "/adicionar"
     }
   ]
 }
