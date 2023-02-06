@@ -18,7 +18,7 @@ app.listen(process.env.PORT || 8001, () => {
 });
 
 const url = process.env.URL;
-app.get('/', (req, res, err) => {
+app.get('/getConvidados', (req, res, err) => {
   console.log('GETCONVIDADOS');
   try {
     MongoClient.connect(url, function (err, db) {
