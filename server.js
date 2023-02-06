@@ -17,7 +17,8 @@ app.listen(process.env.PORT || 8001, () => {
   console.log(`App UI available http://localhost:${port}`);
 });
 
-const url = process.env.URL;
+const url =
+  'mongodb+srv://ju23:140300@ju23.wa4cvxv.mongodb.net/?retryWrites=true&w=majority';
 app.get('/getConvidados', (req, res, err) => {
   console.log('GETCONVIDADOS');
   try {
