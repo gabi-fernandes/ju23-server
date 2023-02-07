@@ -3,8 +3,8 @@ const path = require('path');
 const cors = require('cors');
 const axios = require('axios');
 const app = express();
-var MongoClient = require('mongodb').MongoClient;
-var ObjectID = require('mongodb').ObjectId;
+var MongoClient = require('mongodb-legacy').MongoClient;
+var ObjectID = require('mongodb-legacy').ObjectId;
 
 require('dotenv/config');
 
