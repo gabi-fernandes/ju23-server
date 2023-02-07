@@ -106,6 +106,7 @@ app.post('/entrou', (req, res, err) => {
 
 app.post('/check', (req, res, err) => {
   console.log('/check');
+
   try {
     MongoClient.connect(url, function (err, db) {
       if (err) throw err;
